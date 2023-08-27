@@ -5,7 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 function Navbar() {
 
-  const [sidebar,SetSidebar] = useState(false);
+  const [sidebar,SetSidebar] = useState(true);
 
 
   const SidebarClick = ()=>{
