@@ -2,13 +2,13 @@
     
     display: flex;
     justify-content: space-between;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 90vh;
 }
 
 .leftdiv{
-    background-color: aqua;
-    max-width: 600px;
+    /* background-color: aqua; */
+    max-width: 500px;
     /* width: 100px; */
     display: flex;
     flex-direction: column;
@@ -27,22 +27,25 @@
 }
 
 .card-img{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     display: flex;
     justify-content: end;
-    background-color: aquamarine;
+    background-color: transparent;
     position: relative;
     top: -30px;
 }
 
 .rightdiv{
+    position: relative;
     display: flex;
-    background-color: blue;
-    width: 700px;
-    background-image: url("https://img.freepik.com/free-photo/liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper_1258-82939.jpg");
+    /* background-color: blue; */
+    width: 400px;
+    background-image: url("https://thumbs.dreamstime.com/b/illustration-earth-globe-decorated-fruits-fast-food-chicken-leg-white-background-illustration-earth-globe-159432455.jpg");
     background-repeat: no-repeat, repeat;
     background-size: cover;
+    border-radius: 10px;
+    
     
     /* justify-content: center;
     align-items: center; */
@@ -51,20 +54,32 @@
 .cards{
     display: flex;
     flex-direction: column;
-    background-color: red;;
-    width: 200px;
+    /* background-color: red;; */
+    width: 180px;
     height: 200px;
     align-items: center;
     gap: 10px;
+    border-radius: 10px;
+
+    background: rgba(255, 255, 255, 0.2); /* Background with transparency */
+    backdrop-filter: blur(10px); /* Blur effect for the glass */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+   
 
     
 }
 .cardss{
+    position: absolute;
+    right: 130px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 40px;
     column-gap: 10px;
     height: 100px;
+    margin-top: 100px;
+    
+    
 }
 
 
